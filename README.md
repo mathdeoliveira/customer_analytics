@@ -89,3 +89,7 @@ O mercado de presentes é bem grande, existe diversas datas comemorativas onde a
 
 O mercado on-line vem crescendo a cada ano, mais e mais, o cliente busca na internet por diversos produtos pois ele está mais conectado do que antes, a empresa se colocou de forma estratégia aproveitando desse movimento, conseguindo expandir o seu negócio e também diminuindo os custos.
 
+## Análise exploratória dos dados
+Vamos explorar os nosso dados, não vou criar uma análise muito complexa, vou manter de forma mais superficial, já que vamos aplicar técnicas analíticas para os clientes.
+
+![image info](describe.png)
