@@ -96,11 +96,13 @@ Vamos explorar os nosso dados, não vou criar uma análise muito complexa, vou m
 
 A tabela de descrição acima nos mostra que, a média de quantidade comprada é de aproximadamente 13 unidades e existe um valor outlier de 19152 unidades comprada em um produto. Já o valor unitário do produto temos que, a média e de aproximadamente £3 e que temos um valor máximo de £10.953.
 
+<center><img alt="Vaga" width="100%" src="https://github.com/mathdeoliveira/customer_analytics/blob/main/total_country.PNG?raw=true"></center>
 
 O gráfico acima temos o valor total comprado para cada país do nosso dataset, temos que o Reino Unido é o país que mais compra presentes da empresa, portanto os clientes desse país podem ser os principais para o negócio.
 
+<center><img alt="Vaga" width="100%" src="https://github.com/mathdeoliveira/customer_analytics/blob/main/frequency_customer.PNG?raw=true"></center>
 
-O gráfico acima nós mostra os clientes que mais vezes compraram na empresa, temos um cliente que comprou mais que 200 vezes durante todo o tempo.
+O gráfico acima nos mostra a frequência de compras dos clientes que mais vezes compraram na empresa, temos um cliente que comprou mais que 200 vezes durante todo o tempo. Interessante saber que possuimos em um cliente bastante fiel e assíduo nas compras de presentes, talvez seja alguma pessoa que compra para revender.
 
 ## Cohorts
 A análise de cohort é ferramenta que ajuda no entendimento do comportamento dos clientes e entender, por exemplo a retenção do cliente ao decorrer do tempo. O Cohort é uma forma de agrupar os clientes onde eles compartilham características em comum, então podemos utilizar essa ferramenta para agrupar os clientes e entender ao longo de tempo as seus comportamentos.
@@ -109,6 +111,7 @@ Nesse caso, iremos olhar a retenção do usuário, é importante saber qual é o
 
 Dado que não temos na nossa base de dados a data que o cliente se cadastrou na empresa, vamos levar em consideração que a data da sua primeira compra é o data correta onde ele se cadastrou.
 
+<center><img alt="Vaga" width="100%" src="https://github.com/mathdeoliveira/customer_analytics/blob/main/cohort.PNG?raw=true"></center>
 
 O gráfico acima nos mostra a retenção dos clientes, para cada linha temos a porcentagem dos clientes que recompraram dado o número x de períodos após a sua primeira compra. Olhando a primeira coluna, que nos mostra a porcentagem dos clientes que voltaram no segundo mês, temos que em média 80% dos clientes não voltam a comprar, exceto ao primeiro mês 2009-12 que teve 35% dos clientes voltando no segundo mês.
 
