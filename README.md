@@ -92,4 +92,39 @@ O mercado on-line vem crescendo a cada ano, mais e mais, o cliente busca na inte
 ## Análise exploratória dos dados
 Vamos explorar os nosso dados, não vou criar uma análise muito complexa, vou manter de forma mais superficial, já que vamos aplicar técnicas analíticas para os clientes.
 
-![image info](describe.png)
+<center><img alt="Vaga" width="100%" src="https://github.com/mathdeoliveira/customer_analytics/blob/main/describe.PNG?raw=true"></center>
+
+A tabela de descrição acima nos mostra que, a média de quantidade comprada é de aproximadamente 13 unidades e existe um valor outlier de 19152 unidades comprada em um produto. Já o valor unitário do produto temos que, a média e de aproximadamente £3 e que temos um valor máximo de £10.953.
+
+
+O gráfico acima temos o valor total comprado para cada país do nosso dataset, temos que o Reino Unido é o país que mais compra presentes da empresa, portanto os clientes desse país podem ser os principais para o negócio.
+
+
+O gráfico acima nós mostra os clientes que mais vezes compraram na empresa, temos um cliente que comprou mais que 200 vezes durante todo o tempo.
+
+## Cohorts
+A análise de cohort é ferramenta que ajuda no entendimento do comportamento dos clientes e entender, por exemplo a retenção do cliente ao decorrer do tempo. O Cohort é uma forma de agrupar os clientes onde eles compartilham características em comum, então podemos utilizar essa ferramenta para agrupar os clientes e entender ao longo de tempo as seus comportamentos.
+
+Nesse caso, iremos olhar a retenção do usuário, é importante saber qual é o nível de retenção que a empresa está tendo para saber como a empresa está de saúde, com a análise podemos inferir a lealdade dos clientes com a empresa. E sabemos que reter clientes comprando na empresa é de muita importância, pois é mais barato manter um cliente que já comprou do que adquirir novos clientes.
+
+Dado que não temos na nossa base de dados a data que o cliente se cadastrou na empresa, vamos levar em consideração que a data da sua primeira compra é o data correta onde ele se cadastrou.
+
+
+O gráfico acima nos mostra a retenção dos clientes, para cada linha temos a porcentagem dos clientes que recompraram dado o número x de períodos após a sua primeira compra. Olhando a primeira coluna, que nos mostra a porcentagem dos clientes que voltaram no segundo mês, temos que em média 80% dos clientes não voltam a comprar, exceto ao primeiro mês 2009-12 que teve 35% dos clientes voltando no segundo mês.
+
+De fato essa linha do mês 2009-12 é a mais positiva para o negócio, seria de grande interesse estudar os motivos dessa causa de reter melhor que outros meses, nessa data tivemos a maior quantidade de clientes, somando 955. Além de um ano depois 50% dos clientes voltaram a recomprar.
+
+Olhando o restante dos cohorts, vemos uma certa sazonalidade, clientes compram pela primeira vez, fica um tempo sem recomprar e após há um aumento da recompra dos mesmos clientes.
+
+De toda forma, isso já nos da uma grande ajuda no entendimento do comportamento de compra do cliente, sendo necessário a aquisição de mais dados e o entendimento mais profundo do modelo de negócio praticado pela empresa para afirmar as nossos insights.
+
+Não precisamos parar por aqui, podemos analisar os cohorts diários, caso queria ver diariamente. Caso tenha bastante dado, podemos até visualizar os cohorts anuais.
+
+Além disso, podemos segmentar os nossos cohorts por diversas óticas, por campanha de marketing, por dispositivos, etc. E não precisamos ver somente por retenção, mas também por conversão dos clientes, receita gerada, enfim, depende da métrica que o negócio necessita no momento.
+
+## Segmentação
+### Feature engineering
+
+Vamos desenvolver o processo de feature engineering, para isso vamos utilizar um método de vetorizar os produtos que temos na nossa base para nos ajudar a clusterizar esses produtos e identificar o cluster desse produtos para cada produto e para cada cliente. Além disso, vamos criar algumas novas variáveis a partir das variáveis das quais já possuimos.
+ 
+ 
