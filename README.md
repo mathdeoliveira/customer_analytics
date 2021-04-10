@@ -1,9 +1,10 @@
 # Customer Analytics
 
-<center><img src='https://image.freepik.com/vetores-gratis/analista-de-cro-e-especialista-aumentam-a-porcentagem-de-clientes-otimizacao-da-taxa-de-conversao-sistema-de-marketing-digital-conceito-de-marketing-de-atracao-de-chumbo-ilustracao-de-vetor-isolado-de-coral-rosa_335657-2292.jpg'/>
+<p align="center">
+<img src='https://image.freepik.com/vetores-gratis/analista-de-cro-e-especialista-aumentam-a-porcentagem-de-clientes-otimizacao-da-taxa-de-conversao-sistema-de-marketing-digital-conceito-de-marketing-de-atracao-de-chumbo-ilustracao-de-vetor-isolado-de-coral-rosa_335657-2292.jpg'/>
 
-<a href='https://br.freepik.com/vetores/desenho-animado'>Desenho animado vetor criado por vectorjuice - br.freepik.com</a></center>
-
+<a href='https://br.freepik.com/vetores/desenho-animado'>Desenho animado vetor criado por vectorjuice - br.freepik.com</a>
+</p>
 
 A análise dos cliente é de suma importância para as empresas, pois a maioria vão lidar com cliente, seja com os seus serviços ou produtos, assim precisamos criar processos pelo qual os dados comportamentais deles são usados para otimizar e melhorar as tomadas de decisões de negócio.
 
@@ -85,14 +86,16 @@ Anteriormente vimos a descrição dos dados que possuimos, são referentes a uma
 
 O mercado de presentes é bem grande, existe diversas datas comemorativas onde as pessoas podem vim a escolher algum produto para presentear, ter um varejo on-line onde as vendas acontece de forma sem intermediários, assim podendo cobrar um valor mais baixo, os consumidores finais podem utilizar para compras.
 
-<center><img alt="Vaga" width="50%" src="https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"></center>
+<p align="center">
+ <img alt="Vaga" width="50%" src="https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
+</p>
 
 O mercado on-line vem crescendo a cada ano, mais e mais, o cliente busca na internet por diversos produtos pois ele está mais conectado do que antes, a empresa se colocou de forma estratégia aproveitando desse movimento, conseguindo expandir o seu negócio e também diminuindo os custos.
 
 ## Análise exploratória dos dados
 Vamos explorar os nosso dados, não vou criar uma análise muito complexa, vou manter de forma mais superficial, já que vamos aplicar técnicas analíticas para os clientes.
 
-<center><img alt="Vaga" width="100%" src="https://github.com/mathdeoliveira/customer_analytics/blob/main/describe.PNG?raw=true"></center>
+<img align="left" alt="Vaga" width="100%" src="https://github.com/mathdeoliveira/customer_analytics/blob/main/describe.PNG?raw=true">
 
 A tabela de descrição acima nos mostra que, a média de quantidade comprada é de aproximadamente 13 unidades e existe um valor outlier de 19152 unidades comprada em um produto. Já o valor unitário do produto temos que, a média e de aproximadamente £3 e que temos um valor máximo de £10.953.
 
